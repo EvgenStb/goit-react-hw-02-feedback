@@ -1,0 +1,26 @@
+.Feedback__container {
+    margin: 15px 15px;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(43, 204, 233);
+    
+}
+.Feedback__title {
+    text-align: center;
+}
+.Feedback__controls{
+    text-align: center;
+}
+.Feedback__batton {
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(148, 218, 197);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Feedback__batton:not(:last-child) {
+    margin-right: 15px;
+}
